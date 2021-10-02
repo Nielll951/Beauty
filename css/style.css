@@ -526,6 +526,26 @@ hr {
    }
 }
 
+@media (max-width: 634px) {
+   .header-bottom {
+      display: none;
+   }
+
+   hr {
+      display: none;
+   }
+}
+
+@media (max-width: 620px) {
+   .header-info a {
+      display: none;
+   }
+
+   .footer-bottom p {
+      text-align: center;
+   }
+}
+
 @media (max-width: 602px) {
    .footer-info {
       flex-direction: column;
@@ -552,4 +572,15 @@ hr {
 
 }
 
-/* @media (max-width: 1200px) {} */
+@media (max-width: 471px) {
+   .logo-image {
+      width: 60px;
+      height: 60px;
+      background-position: center;
+      background-size: cover;
+   }
+
+   .logo {
+      font-size: 30px;
+   }
+}
